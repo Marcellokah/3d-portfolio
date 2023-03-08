@@ -66,7 +66,7 @@ const Contact = () => {
             <textarea rows="7" name="message" value={form.message} onChange={handleChange} placeholder="What's do you want to say?" className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"></textarea>
           </label>
 
-          <button type="submit" className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">
+          <button type="submit" className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] ease-out hover:translate-y-1 transition-all rounded-xl">
             {loading ? 'Sending...' : 'Send'}
           </button>
         </form>

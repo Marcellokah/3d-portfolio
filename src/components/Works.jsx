@@ -39,7 +39,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My work</p>
+        <p className={styles.sectionSubText}>My works</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
@@ -49,7 +49,7 @@ const Works = () => {
         </motion.div>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap justify-evenly gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index} />
         ))}
@@ -58,4 +58,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

@@ -1,20 +1,16 @@
 import {
-    mobile,
-    backend,
-    creator,
+    react,
+    frontend,
     web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -31,8 +27,16 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "skills",
+        title: "Skills",
+    },
+    {
+        id: "projects",
+        title: "Projects",
+    },
+    {
+        id: "social",
+        title: "Social",
     },
     {
         id: "contact",
@@ -47,11 +51,11 @@ const services = [
     },
     {
         title: "Front-End Developer",
-        icon: backend,
+        icon: frontend,
     },
     {
         title: "React JS Developer",
-        icon: mobile,
+        icon: react,
     },
 ];
 
@@ -77,20 +81,12 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
         name: "Tailwind CSS",
         icon: tailwind,
     },
     {
         name: "Node JS",
         icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
     },
     {
         name: "Three JS",
@@ -103,10 +99,6 @@ const technologies = [
     {
         name: "figma",
         icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
     },
 ];
 
@@ -168,27 +160,39 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "placeholder",
+        name: "Marcell Almási",
+        designation: "LinkedIn",
+        company: "",
+        image: "src/assets/social/linkedin.jpg",
+        link: "https://www.linkedin.com/in/marcell-alm%C3%A1si/"
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "placeholder",
+        name: "Marcell Almási",
+        designation: "GitHub",
+        company: "",
+        image: "src/assets/social/github.jpg",
+        link: "https://github.com/Marcellokah"
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "placeholder",
+        name: "marcell _almasi",
+        designation: "Instagram",
+        company: "",
+        image: "src/assets/social/instagram.jpg",
+        link: "https://www.instagram.com/marcell_almasi/"
+    },
+    {
+        testimonial:
+            "placeholder",
+        name: "Marci Almási",
+        designation: "Facebook",
+        company: "",
+        image: "src/assets/social/facebook.jpg",
+        link: "https://www.facebook.com/almasimarcell/"
     },
 ];
 
