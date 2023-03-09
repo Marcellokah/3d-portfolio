@@ -16,7 +16,7 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image, l
           <p className='mt-1 text-secondary text-[12px]'>{designation}{company}</p>
         </div>
         <div onClick={() => window.open(link, "_blank")} className="cursor-pointer">
-          <img src={image} alt={`feedback-by-${name}`} className="w-[150px] ease-out hover:translate-y-1 transition-all rounded-full object-cover" />
+          <img src={image} alt={name} className="w-[150px] ease-out hover:translate-y-1 transition-all rounded-full object-cover" />
         </div>
       </div>
     </div>

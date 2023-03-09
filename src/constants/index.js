@@ -2,6 +2,7 @@ import {
     react,
     frontend,
     web,
+
     javascript,
     typescript,
     html,
@@ -11,18 +12,22 @@ import {
     nodejs,
     git,
     figma,
+
     meta,
     starbucks,
     tesla,
     shopify,
+
+    linkedIn,
+    gitHub,
+    instagram,
+    facebook,
 
     dino,
     ecommerce,
     fighting,
     pong,
     portfolio,
-    rpc,
-    snake,
     weather,
 
     threejs,
@@ -171,7 +176,7 @@ const testimonials = [
         name: "Marcell Almási",
         designation: "LinkedIn",
         company: "",
-        image: "src/assets/social/linkedin.jpg",
+        image: linkedIn,
         link: "https://www.linkedin.com/in/marcell-alm%C3%A1si/"
     },
     {
@@ -180,7 +185,7 @@ const testimonials = [
         name: "Marcell Almási",
         designation: "GitHub",
         company: "",
-        image: "src/assets/social/github.jpg",
+        image: gitHub,
         link: "https://github.com/Marcellokah"
     },
     {
@@ -189,7 +194,7 @@ const testimonials = [
         name: "marcell _almasi",
         designation: "Instagram",
         company: "",
-        image: "src/assets/social/instagram.jpg",
+        image: instagram,
         link: "https://www.instagram.com/marcell_almasi/"
     },
     {
@@ -198,7 +203,7 @@ const testimonials = [
         name: "Marci Almási",
         designation: "Facebook",
         company: "",
-        image: "src/assets/social/facebook.jpg",
+        image: facebook,
         link: "https://www.facebook.com/almasimarcell/"
     },
 ];

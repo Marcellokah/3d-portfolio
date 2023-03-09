@@ -25,6 +25,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import linkedIn from "./social/linkedin.png";
+import gitHub from "./social/github.png";
+import instagram from "./social/instagram.png";
+import facebook from "./social/facebook.png";
+
 import dino from "./projects/dino.png";
 import ecommerce from "./projects/ecommerce.png";
 import fighting from "./projects/fighting.png";
@@ -42,6 +47,7 @@ export {
   github,
   menu,
   close,
+
   css,
   docker,
   figma,
@@ -55,10 +61,17 @@ export {
   tailwind,
   typescript,
   threejs,
+
   meta,
   shopify,
   starbucks,
   tesla,
+
+  linkedIn,
+  gitHub,
+  instagram,
+  facebook,
+
   dino,
   ecommerce,
   fighting,
