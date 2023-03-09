@@ -15,9 +15,16 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+
+    dino,
+    ecommerce,
+    fighting,
+    pong,
+    portfolio,
+    rpc,
+    snake,
+    weather,
+
     threejs,
 } from "../assets";
 
@@ -198,30 +205,31 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Previous Portfolio",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "This is my previous personal portfolio page made with React JS, Bootstrap and Animate.css .",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
+                name: "animate.css",
                 color: "pink-text-gradient",
             },
+            {
+                name: "bootstrap",
+                color: "blue-text-gradient",
+            },
+
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: portfolio,
+        source_code_link: "https://github.com/Marcellokah/personal-portfolio",
     },
     {
-        name: "Job IT",
+        name: "Weather App",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Weather App made with React JS using the OpenWeatherMap API and GeoDB API with places autocomplete.",
         tags: [
             {
                 name: "react",
@@ -231,34 +239,93 @@ const projects = [
                 name: "restapi",
                 color: "green-text-gradient",
             },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: weather,
+        source_code_link: "https://github.com/Marcellokah/weather-app",
     },
     {
-        name: "Trip Guide",
+        name: "eCommerce",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Full-Stack ECommerce React [Next.js] Application using Sanity for product database and Stripe for payment.",
         tags: [
             {
                 name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "full-stack",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "stripe",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "sanity",
+                color: "red-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: ecommerce,
+        source_code_link: "https://github.com/Marcellokah/ecommerce",
+    },
+    {
+        name: "Fighting Game",
+        description:
+            "Fighting Game made with Vanilla JS on HTML canvas including pixelart textures.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "pixelart",
+                color: "red-text-gradient",
+            },
+        ],
+        image: fighting,
+        source_code_link: "https://github.com/Marcellokah/fighting-game",
+    },
+    {
+        name: "Chrome Game",
+        description:
+            "Copy of the famous Google Chrome game made with Vanilla JS.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "pixelart",
+                color: "red-text-gradient",
+            },
+        ],
+        image: dino,
+        source_code_link: "https://github.com/Marcellokah/chrome-game",
+    },
+    {
+        name: "Ping-Pong",
+        description:
+            "Ping-Pong game that uses cursor movement for controls, made with Vanilla JS.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: pong,
+        source_code_link: "https://github.com/Marcellokah/pong",
     },
 ];
 

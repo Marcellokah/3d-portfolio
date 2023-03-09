@@ -25,9 +25,14 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./projects/carrent.png";
-import jobit from "./projects/jobit.png";
-import tripguide from "./projects/tripguide.png";
+import dino from "./projects/dino.png";
+import ecommerce from "./projects/ecommerce.png";
+import fighting from "./projects/fighting.png";
+import pong from "./projects/pong.png";
+import portfolio from "./projects/portfolio.png";
+import rpc from "./projects/rpc.png";
+import snake from "./projects/snake.png";
+import weather from "./projects/weather.png";
 
 export {
   logo,
@@ -54,7 +59,12 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  dino,
+  ecommerce,
+  fighting,
+  pong,
+  portfolio,
+  rpc,
+  snake,
+  weather
 };
