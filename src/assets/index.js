@@ -1,10 +1,13 @@
 import logo from "./logo.svg";
+import web from "./web.png";
 import frontend from "./frontend.png";
 import react from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+
+import strikingly from "./company/strikingly.png";
+import origindev from "./company/origindev.png";
 
 import html from "./tech/html.png";
 import css from "./tech/css.png";
@@ -20,31 +23,29 @@ import threejs from "./tech/threejs.svg";
 import git from "./tech/git.png";
 import figma from "./tech/figma.png";
 
-import strikingly from "./company/strikingly.png";
-import origindev from "./company/origindev.png";
+import portfolio from "./projects/portfolio.png";
+import weather from "./projects/weather.png";
+import ecommerce from "./projects/ecommerce.png";
+import fighting from "./projects/fighting.png";
+import dino from "./projects/dino.png";
+import blog from "./projects/blog.png";
 
 import linkedIn from "./social/linkedin.png";
 import gitHub from "./social/github.png";
 import instagram from "./social/instagram.png";
 import facebook from "./social/facebook.png";
 
-import dino from "./projects/dino.png";
-import ecommerce from "./projects/ecommerce.png";
-import fighting from "./projects/fighting.png";
-import pong from "./projects/pong.png";
-import portfolio from "./projects/portfolio.png";
-import rpc from "./projects/rpc.png";
-import snake from "./projects/snake.png";
-import weather from "./projects/weather.png";
-
 export {
   logo,
+  web,
   frontend,
   react,
-  web,
   github,
   menu,
   close,
+
+  strikingly,
+  origindev,
 
   html,
   css,
@@ -60,20 +61,15 @@ export {
   git,
   figma,
 
-  strikingly,
-  origindev,
+  portfolio,
+  weather,
+  ecommerce,
+  fighting,
+  dino,
+  blog,
 
   linkedIn,
   gitHub,
   instagram,
   facebook,
-
-  dino,
-  ecommerce,
-  fighting,
-  pong,
-  portfolio,
-  rpc,
-  snake,
-  weather
 };

@@ -1,7 +1,10 @@
 import {
-    react,
-    frontend,
     web,
+    frontend,
+    react,
+
+    strikingly,
+    origindev,
 
     html,
     css,
@@ -17,20 +20,17 @@ import {
     git,
     figma,
 
-    strikingly,
-    origindev,
+    portfolio,
+    weather,
+    ecommerce,
+    fighting,
+    dino,
+    blog,
 
     linkedIn,
     gitHub,
     instagram,
     facebook,
-
-    dino,
-    ecommerce,
-    fighting,
-    pong,
-    portfolio,
-    weather,
 } from "../assets";
 
 export const navLinks = [
@@ -306,21 +306,25 @@ const projects = [
         source_code_link: "https://github.com/Marcellokah/chrome-game",
     },
     {
-        name: "Ping-Pong",
+        name: "Blog Website",
         description:
-            "Ping-Pong game that uses cursor movement for controls, made with Vanilla JS.",
+            "Blog website built using React JS, deployed with Vite, and styled with Tailwind CSS.",
         tags: [
             {
-                name: "html",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "javascript",
-                color: "orange-text-gradient",
+                name: "vite",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "tailwindcss",
+                color: "blue-text-gradient",
             },
         ],
-        image: pong,
-        source_code_link: "https://github.com/Marcellokah/pong",
+        image: blog,
+        source_code_link: "https://github.com/Marcellokah/origin-develop-assignment",
     },
 ];
 
