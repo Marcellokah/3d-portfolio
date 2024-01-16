@@ -147,9 +147,9 @@ const experiences = [
     },
 ];
 
-const testimonials = [
+const socials = [
     {
-        testimonial:
+        social:
             "placeholder",
         name: "Marcell Almási",
         designation: "LinkedIn",
@@ -158,7 +158,7 @@ const testimonials = [
         link: "https://www.linkedin.com/in/marcell-alm%C3%A1si/"
     },
     {
-        testimonial:
+        social:
             "placeholder",
         name: "Marcell Almási",
         designation: "GitHub",
@@ -167,7 +167,7 @@ const testimonials = [
         link: "https://github.com/Marcellokah"
     },
     {
-        testimonial:
+        social:
             "placeholder",
         name: "marcell _almasi",
         designation: "Instagram",
@@ -176,7 +176,7 @@ const testimonials = [
         link: "https://www.instagram.com/marcell_almasi/"
     },
     {
-        testimonial:
+        social:
             "placeholder",
         name: "Marci Almási",
         designation: "Facebook",
@@ -312,4 +312,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, socials, projects };
