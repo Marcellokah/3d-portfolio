@@ -3,20 +3,22 @@ import {
     frontend,
     web,
 
-    javascript,
-    typescript,
     html,
     css,
+    javascript,
+    typescript,
+    liquid,
+    graphql,
     reactjs,
+    gatsby,
     tailwind,
     nodejs,
+    threejs,
     git,
     figma,
 
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    strikingly,
+    origindev,
 
     linkedIn,
     gitHub,
@@ -29,8 +31,6 @@ import {
     pong,
     portfolio,
     weather,
-
-    threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -93,8 +93,20 @@ const technologies = [
         icon: typescript,
     },
     {
+        name: "Liquid",
+        icon: liquid,
+    },
+    {
+        name: "graphQL",
+        icon: graphql,
+    },
+    {
         name: "React JS",
         icon: reactjs,
+    },
+    {
+        name: "Gatsby",
+        icon: gatsby,
     },
     {
         name: "Tailwind CSS",
@@ -120,26 +132,26 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Customer Support Specialist",
+        company_name: "Strikingly",
+        icon: strikingly,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "June 2023 - October 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Facilitated seamless domain connections, executed efficient domain transfers, and adeptly managed DNS records for enhanced online presence.",
+            "Evaluated and refined custom header/footer HTML, ensuring a polished and cohesive visual representation aligned with project requirements.",
+            "Meticulously identified and reported bugs, contributing to the continuous improvement and stability of web applications.",
+            "Executed translation tasks with precision and cultural sensitivity, enhancing the accessibility and global reach of digital content.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Front-End Developer",
+        company_name: "origin/develop",
+        icon: origindev,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "November 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using Liquid, graphQL, Gatsby and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
