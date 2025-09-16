@@ -154,7 +154,7 @@ const experiences = [
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
-            "Oversee the recruitment process for new interns and provide mentorship throughout their onboarding and development."
+            "Oversee the recruitment process for new interns and provide mentorship throughout their onboarding and development.",
         ],
     },
 ];
@@ -321,7 +321,6 @@ const projects = [
                 name: "bootstrap",
                 color: "blue-text-gradient",
             },
-
         ],
         image: portfolio,
         source_code_link: "https://github.com/Marcellokah/personal-portfolio",
