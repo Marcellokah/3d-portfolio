@@ -29,8 +29,8 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Welcome to my website! I'm Marcell Almási, a Front-End Developer based in Hungary. I'm thrilled to present the culmination of my projects and skills to you. Specializing in React, which serves as my main library, I bring a dynamic approach to crafting immersive digital experiences. Leveraging Tailwind as my primary CSS library, I ensure sleek and responsive designs that captivate users. <br />
-        This portfolio reflects my unwavering commitment to continuous learning and my passion for creating high-quality digital solutions. I'm eager to connect with like-minded professionals who share a passion for innovation and excellence. Feel free to reach out to me — I look forward to the opportunity to discuss and collaborate. Thank you for taking the time to explore my work!
+        I’m Marcell Almási, a passionate Front-End Developer focused on building responsive, accessible, and performant web applications. With hands-on experience in React, TypeScript, Gatsby, Tailwind CSS, and other modern technologies, I enjoy turning complex ideas into clean, intuitive, and user-friendly interfaces. <br /><br />
+        My approach combines creativity with attention to detail — from crafting engaging UI/UX designs to ensuring smooth performance across devices and browsers. I believe great products are born from collaboration, which is why I value working closely with designers, product managers, and fellow developers to deliver solutions that make a real impact.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap justify-evenly gap-10' >
