@@ -39,13 +39,13 @@ const Projects = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My applications</p>
+        <p className={styles.sectionSubText}>What I have worked on</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.div variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          In my projects showcase, you will find a variety of interactive applications that showcase my Front-End skills. Some of my projects involve creating engaging games using HTML Canvas, which allows me to combine my passion for programming with my love of gaming. From classic games like Ping-Pong and Snake to more complex games like platformers and fighting games, I enjoy using my creativity and problem-solving skills to bring these games to life. Naturally, I have also worked on several React applications, including e-commerce sites and other interesting platforms alongside with many work related applications. My projects showcase my ability to work independently and as part of a team, as well as my dedication to delivering high-quality products that exceed expectations.
+          My portfolio features a diverse range of projects that highlight my expertise in modern web development and creative problem-solving. From building accessible marketing sites like PlatformOS and Catalyst Constellations, to reworking documentation templates such as DocsKit, I focus on delivering high-quality, user-friendly solutions. My work also includes interactive experiences like a Fighting Game and a Chrome Game clone, both developed with vanilla JavaScript and pixel art. Additionally, my previous personal portfolio demonstrates my proficiency with React, Bootstrap, and animation libraries. Each project reflects my commitment to clean design, performance, and accessibility.
         </motion.div>
       </div>
 

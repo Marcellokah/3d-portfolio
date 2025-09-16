@@ -24,11 +24,11 @@ import git from "./tech/git.png";
 import figma from "./tech/figma.png";
 
 import portfolio from "./projects/portfolio.png";
-import weather from "./projects/weather.png";
-import ecommerce from "./projects/ecommerce.png";
+import platformos from "./projects/platformos.png";
+import catalystconstellations from "./projects/catalystconstellations.png";
 import fighting from "./projects/fighting.png";
 import dino from "./projects/dino.png";
-import blog from "./projects/blog.png";
+import docskit from "./projects/docskit.png";
 
 import linkedIn from "./social/linkedin.png";
 import gitHub from "./social/github.png";
@@ -61,12 +61,12 @@ export {
   git,
   figma,
 
-  portfolio,
-  weather,
-  ecommerce,
+  platformos,
+  catalystconstellations,
+  docskit,
   fighting,
   dino,
-  blog,
+  portfolio,
 
   linkedIn,
   gitHub,
