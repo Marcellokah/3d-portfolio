@@ -32,7 +32,7 @@ const SocialMedias = () => {
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap justify-evenly gap-7`}>
         {socials.map((social, index) => (
-          <SocialMediaCard key={social.name} index={index} {...social} />
+          <SocialMediaCard key={social.link} index={index} {...social} />
         ))}
       </div>
     </div>
