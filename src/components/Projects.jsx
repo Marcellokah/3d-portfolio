@@ -47,14 +47,15 @@ const Projects = () => {
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
-      <div className="w-full flex">
-        <motion.div variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          My portfolio features a diverse range of projects that highlight my expertise in modern web development and creative problem-solving. From building accessible marketing sites like PlatformOS and Catalyst Constellations, to reworking documentation templates such as DocsKit, I focus on delivering high-quality, user-friendly solutions. My work also includes interactive experiences like a Fighting Game and a Chrome Game clone, both developed with vanilla JavaScript and pixel art. Additionally, my previous personal portfolio demonstrates my proficiency with React, Bootstrap, and animation libraries. Each project reflects my commitment to clean design, performance, and accessibility.
-        </motion.div>
-      </div>
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        My portfolio features a diverse range of projects that highlight my expertise in modern web development and creative problem-solving. From building accessible marketing sites like PlatformOS and Catalyst Constellations, to reworking documentation templates such as DocsKit, I focus on delivering high-quality, user-friendly solutions. My work also includes interactive experiences like a Fighting Game and a Chrome Game clone, both developed with vanilla JavaScript and pixel art. Additionally, my previous personal portfolio demonstrates my proficiency with React, Bootstrap, and animation libraries. Each project reflects my commitment to clean design, performance, and accessibility.
+      </motion.p>
 
       <div className="mt-20 flex flex-wrap justify-evenly gap-7">
-        {projects.map((project, index) => (
+        {(typeof window !== 'undefined' && window.innerWidth <= 462
+          ? projects.slice(0, projects.length - 1)
+          : projects
+        ).map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index} />
         ))}
       </div>
