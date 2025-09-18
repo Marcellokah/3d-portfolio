@@ -218,7 +218,8 @@ const projects = [
             },
         ],
         image: platformos,
-        source_code_link: "https://www.platformos.com/",
+        source_code_link: "https://github.com/Platform-OS/marketplace-platform-os",
+        url: "https://www.platformos.com/",
     },
     {
         name: "Catalyst Constellations",
@@ -239,7 +240,8 @@ const projects = [
             },
         ],
         image: catalystconstellations,
-        source_code_link: "https://catalystconstellations.com/",
+        source_code_link: "https://github.com/Platform-OS/catalyst",
+        url: "https://catalystconstellations.com/",
     },
     {
         name: "DocsKit",
@@ -260,7 +262,8 @@ const projects = [
             },
         ],
         image: docskit,
-        source_code_link: "https://docskit.platformos.com/",
+        source_code_link: "https://github.com/Platform-OS/docskit-landing",
+        url: "https://docskit.platformos.com/",
     },
     {
         name: "Fighting Game",
@@ -282,6 +285,7 @@ const projects = [
         ],
         image: fighting,
         source_code_link: "https://github.com/Marcellokah/fighting-game",
+        url: "https://marcellokah.github.io/fighting-game/",
     },
     {
         name: "Chrome Game",
@@ -303,6 +307,7 @@ const projects = [
         ],
         image: dino,
         source_code_link: "https://github.com/Marcellokah/chrome-game",
+        url: "https://marcellokah.github.io/chrome-game/",
     },
     {
         name: "Previous Portfolio",
@@ -324,6 +329,7 @@ const projects = [
         ],
         image: portfolio,
         source_code_link: "https://github.com/Marcellokah/personal-portfolio",
+        url: "https://marcell-almasi-portfolio.netlify.app/",
     },
 ];
 
