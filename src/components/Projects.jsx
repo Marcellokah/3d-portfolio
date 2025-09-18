@@ -53,7 +53,7 @@ const Projects = () => {
 
       <div className="mt-20 flex flex-wrap justify-evenly gap-7">
         {(typeof window !== 'undefined' && window.innerWidth <= 462
-          ? projects.slice(0, projects.length - 1)
+          ? projects.slice(0, projects.length - 3)
           : projects
         ).map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index} />
