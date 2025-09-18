@@ -266,6 +266,28 @@ const projects = [
         url: "https://docskit.platformos.com/",
     },
     {
+        name: "Previous Portfolio",
+        description:
+            "This is my previous personal portfolio page made with React, Bootstrap and Animate.css.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "animate.css",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: portfolio,
+        source_code_link: "https://github.com/Marcellokah/personal-portfolio",
+        url: "https://marcell-almasi-portfolio.netlify.app/",
+    },
+    {
         name: "Fighting Game",
         description:
             "Fighting Game made with Vanilla JS on HTML canvas including pixelart textures.",
@@ -308,28 +330,6 @@ const projects = [
         image: dino,
         source_code_link: "https://github.com/Marcellokah/chrome-game",
         url: "https://marcellokah.github.io/chrome-game/",
-    },
-    {
-        name: "Previous Portfolio",
-        description:
-            "This is my previous personal portfolio page made with React, Bootstrap and Animate.css.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "animate.css",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "bootstrap",
-                color: "blue-text-gradient",
-            },
-        ],
-        image: portfolio,
-        source_code_link: "https://github.com/Marcellokah/personal-portfolio",
-        url: "https://marcell-almasi-portfolio.netlify.app/",
     },
 ];
 
